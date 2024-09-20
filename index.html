@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>O Enigma do Tempo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Durante uma visita ao museu da cidade, eu encontrei um relógio antigo que parecia ter algo peculiar. Ao mexer no ponteiro, uma passagem secreta se abriu e encontrei um mapa que levava a uma relíquia poderosa. Decidi seguir o mapa para resolver o enigma do tempo!</p>
+            <button class="btn-proximo" data-proximo="1">Seguir para Paris</button>
+            <button class="btn-proximo" data-proximo="2">Seguir para Londres</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Em Paris, você se dirige à famosa Torre Eiffel, onde o mapa aponta para o próximo passo da jornada.</p>
+            <button class="btn-proximo" data-proximo="3">Subir a Torre e investigar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Londres, você chega ao Big Ben. A pista sugere que algo sobre o tempo e seus mistérios pode estar escondido nas engrenagens do relógio. O que você fará?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar as engrenagens do Big Ben</button>
+            <button class="btn-proximo" data-proximo="6">Visitar os museus para mais pistas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo da Torre Eiffel, você encontra uma marcação gravada em um dos metais, sugerindo que o próximo destino é o Egito.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Egito</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que o mistério é complexo demais e volta para casa, mas a dúvida sobre o enigma do tempo nunca te deixa em paz.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Explorando as engrenagens do Big Ben, você descobre uma câmara secreta que aponta para o próximo destino no Egito.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Egito</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>No museu, você encontra uma pintura antiga que parece retratar o próximo destino: as pirâmides do Egito.</p>
+            <button class="btn-proximo" data-proximo="8">Ir para as pirâmides</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Egito, o mistério se aprofunda. Você chega às Pirâmides de Gizé, onde o mapa indica que a relíquia está escondida.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a pirâmide central</button>
+            <button class="btn-proximo" data-proximo="10">Explorar a pirâmide menor</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Nas pirâmides, você encontra um corredor oculto que leva a um enigma antigo. Ao resolver, a entrada para a câmara secreta é revelada.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na câmara secreta</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Dentro da pirâmide central, você encontra uma sala cheia de hieróglifos que revelam o caminho para a relíquia.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir para a relíquia</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A pirâmide menor revela apenas túneis sem saída, sem sinais da relíquia.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e explorar a pirâmide central</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando a relíquia">
+            <p>Na câmara final, você encontra a relíquia do tempo, um artefato que permite controlar o fluxo temporal. Você decide estudar e proteger este artefato antigo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando à pirâmide central, você finalmente descobre a relíquia do tempo, encerrando sua jornada.</p>
+            <button class="btn-proximo" data-proximo="11">Estudar a relíquia</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
